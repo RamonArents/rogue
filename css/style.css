@@ -1,0 +1,454 @@
+body{
+    overflow-x: hidden;
+    font-family:"Century Gothic";
+    color:#b0825f;
+    
+
+}
+
+header{
+    background-color:white;
+    margin-top:-0.5em;
+    margin-left:-0.5em;
+    
+    
+}
+
+h1{
+    
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    background-size: 80px 80px;
+    height:35px;
+    width:50px;
+    padding: 0.5em;
+    margin-left:1em;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0;
+    float: right;
+    margin-top:-5em;
+ 
+ 
+    
+}
+
+nav li{
+    display: inline-block;
+    padding: 0.5em;
+
+   
+}
+nav a{
+    text-decoration: none;
+    font-size:1.5em;
+   color:#b0825f;
+    padding: 0.8em;
+  
+   
+   
+    
+}
+nav a:hover{
+    background-color:#86b6cd;
+    color:white;
+}
+figure{
+    margin-left:-1em;
+    width:105%;
+}
+header img{
+      width:103%;
+    height: 650px;
+    margin-top:-1em;
+    
+}
+    
+
+#cast img{
+    margin-left:-0.5em;
+    margin-top:-4em;
+    width:50%;
+    height:765px;
+    float: left;
+}
+#castcrew{
+
+
+
+font-size: 1.2em;
+   
+padding-left:55%;
+
+        
+    
+    
+}
+#castcrew h2{
+  margin-left:-0.5em;  
+       font-size: 2.2em;
+}
+#castcrew table{
+    width:100%;
+    text-align: center;
+}
+#castcrew thead{
+    color:white;
+    background-color:#164b5d;
+}
+#castcrew tr{
+    height: 20px;
+}
+.rowone{
+    background-color:#385565;
+    color:white;
+
+}
+.rowsecond{
+    background-color:#97bfb6;
+    color:#64493a;
+}
+
+
+
+    
+
+
+
+
+h2{
+     font-size: 2.6em;
+    font-weight: normal;
+
+}
+
+
+
+
+
+
+
+ #timelocation{
+  
+    width:100%;
+    height: 1080px;
+   margin-top:0.5em;
+   
+  
+   text-align: center;
+
+}
+#timelocation table{
+     color:white;
+     font-size: 1.5em;
+    width:100%;
+  
+}
+table thead{
+   background-color: #385565;
+    
+}
+
+#timecenterrow{
+    background-color:#648ea7;
+     
+    
+}
+.timefirstrow{
+    background-color:#9faaae;
+
+}
+
+td iframe{
+    width: 98%;
+    height: 300px;
+    
+}
+.time{
+   text-decoration: underline;
+    
+    
+}
+
+
+.clear{
+    clear: both;
+}
+#trailer{
+    margin-left:-0.5em;
+    margin-top:-0.7em;
+}
+#trailer iframe{
+    width: 101%;
+    height: 490px;
+}
+
+
+
+#abouttekst{
+    background-color:#648ea7;
+    color:white;
+    width:50%;
+    height: 459px;
+    margin-left:-0.5em;
+    padding: 0.7em;
+    position: absolute;
+    z-index: -9999;
+    
+}
+#about h2{
+    padding-left:0.1em;
+}
+#about p{
+    text-align: justify;
+     font-size: 1.6em;
+    padding: 0.7em;
+
+}
+#about img{
+    float: right;
+    width:55%;
+    height: 482px;
+    
+    margin-right:-4em;
+    
+}
+dfn{
+    font-style: normal;
+}
+footer p{
+    text-align: center;
+    font-size: 1.3em;
+ 
+}
+
+@media all and (min-height:600px) and (max-width:1300px){
+       #trailer iframe{
+         height: 450px; 
+       
+         }
+}
+@media all and (max-width:1300px) and (max-height:600px){
+ 
+    #trailer iframe{
+        height: 470px;
+        
+    }
+  
+}
+
+@media all and (max-width:1200px){
+  
+    nav ul{
+           margin-right:5%;
+    }
+    #cast img{
+       height:798px;
+    }
+    #abouttekst{
+        width:40%;
+        height: 519px;
+        padding: 1.8em;
+        padding:0.3em;
+    }
+    #about img{
+        height: 529px;
+        width:60%;
+        margin-right: 0em;
+    }
+       #about p{
+        font-size: 1.4em;
+        padding: 1em;
+        margin-top:-1em;
+    }
+    
+
+}
+@media all and (max-width:1000px){
+
+header img{
+    
+  height: 550px;
+
+    
+}
+    #cast img{
+       height: 450px;
+        width: 45%;
+        margin-top:-2em;
+    }
+    #castcrew{
+
+    
+      padding-left: 0%;
+      font-size: 1.2em;
+   }
+    
+    #crewtekst{
+       margin-left:48%;
+     
+        position: absolute;
+    }
+    #castcrew tr{
+        height:20px;
+    }
+    
+    #casttable{
+        margin-right: 0.5em;
+        margin-left:0.4em;
+         
+    
+    
+    }
+    #casttable table{
+        padding-top:1em;
+    }
+    #abouttekst{
+        width:102%;
+        height: 500px;
+        position: static;
+    }
+    #about img{
+        float: none;
+        width:105%;
+        height: 500px; 
+        margin-left:-0.5em;
+        margin-top:-9em;
+    }
+   #about p{
+       
+        font-size: 1.3em;
+        
+    }
+    
+ 
+   
+}
+    @media all and (max-width:600px){
+         header img{
+    
+       height: 450px;
+
+    
+      } 
+
+    }
+
+@media all and (max-width:580px){
+       
+    h1{
+    
+ 
+    background-size: 70px 100px;
+    height:50px;
+    width:40px;
+    margin-top:1em;
+     
+
+}
+    nav ul{
+        margin-top:-7.5em;
+       text-align: center;
+        float: none;
+        margin-left:4em;
+        
+      
+        
+    }
+    nav li{
+    display: block;
+}
+    nav a{
+ 
+    font-size:1.3em;
+  }
+    nav a:hover{
+        background-color:white;
+        color:#b0825f;
+    }
+        header img{
+    display: none;
+
+    
+      } 
+        #cast img{
+            float: none;
+            width:105%;
+            height: 500px;
+            margin-top:-1em;
+        }
+        #castcrew{
+            font-size: 1em;
+        }
+        #crewtekst{
+        position: static;
+        margin-left:4%;
+        }
+    #timelocation{
+        font-size: 0.8em;
+         height: 500px;
+    }
+    td iframe{
+        height: 100px;
+    }
+    #trailer iframe{
+        height: 470px;
+        
+    }
+    #abouttekst{
+     
+       
+        padding-right:0.5em;
+        
+        
+    }
+    #about img{
+    
+        width:117%;
+        margin-top:-3em;
+        height: 287px;
+    
+    }
+ 
+    #about p{
+        font-size: 1.1em;
+    }
+
+}
+@media all and (max-width:450px){  
+    #cast img{
+        height: 450px;
+    }
+
+    td iframe{
+        height: 200px;
+    }
+ #timelocation{
+  
+        height: 760px;
+}
+    footer{
+        margin-top:3em;
+    }
+}
+@media all and (max-width:350px){
+
+      #about p{
+        
+                font-size: 0.9em;
+    }
+}
+
+@media all and (min-height:1300px){
+       #trailer iframe{
+         height: 1116px; 
+       
+         }
+    footer p{
+        font-size:1.5em;
+    }
+}
+
